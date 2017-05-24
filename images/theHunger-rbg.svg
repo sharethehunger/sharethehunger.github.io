@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1206px" height="310px" viewBox="0 0 1206 310" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>text</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-weight="normal" font-family="Yellowtail" letter-spacing="2.64333272" font-size="288" fill-opacity="0.28331635">
+        <g id="Desktop-HD" transform="translate(-30.000000, -705.000000)">
+            <g id="text" transform="translate(-28.000000, 638.000000)">
+                <text id="The-Hunger" fill="#38FF00">
+                    <tspan x="36.66573" y="290">The Hunger</tspan>
+                </text>
+                <text id="The-Hunger" fill="#007CFF">
+                    <tspan x="12.1978178" y="280">The Hunger</tspan>
+                </text>
+                <text id="The-Hunger" fill="#FF0000">
+                    <tspan x="26.4707666" y="285">The Hunger</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

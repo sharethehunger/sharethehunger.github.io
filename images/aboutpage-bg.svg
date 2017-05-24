@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="1024px" viewBox="0 0 1440 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Desktop HD</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="-247.565753 -10.0526719 1447.53587 49.1849762 1447.53587 108.422624 -247.565753 52.9473281"></polygon>
+        <filter x="-0.5%" y="-11.4%" width="101.0%" height="115.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="-5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="-339.622574 -60.5264032 1853.72565 -1.28875514 1853.72565 57.9488929 -339.622574 2.47359678"></polygon>
+        <filter x="-0.3%" y="-4.2%" width="100.6%" height="111.8%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD">
+            <polygon id="Rectangle" fill-opacity="0.800000012" fill="#004CFF" transform="translate(719.852298, 94.051237) rotate(177.000000) translate(-719.852298, -94.051237) " points="-60.8077459 34.8135888 1500.51234 94.0512369 1500.51234 153.288885 -60.8077459 97.8135888"></polygon>
+            <polygon id="Rectangle" fill-opacity="0.800000012" fill="#FF0000" transform="translate(1207.898865, 1050.126835) rotate(143.000000) translate(-1207.898865, -1050.126835) " points="545.207622 990.889187 1870.59011 1050.12684 1870.59011 1109.36448 545.207622 1053.88919"></polygon>
+            <g id="Rectangle" transform="translate(599.985057, 49.184976) rotate(178.000000) translate(-599.985057, -49.184976) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill-opacity="0.800000012" fill="#FF0000" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <polygon id="Rectangle" fill-opacity="0.800000012" fill="#004CFF" transform="translate(1353.898865, 1007.126835) rotate(143.000000) translate(-1353.898865, -1007.126835) " points="691.207622 947.889187 2016.59011 1007.12684 2016.59011 1066.36448 691.207622 1010.88919"></polygon>
+            <polygon id="Rectangle" fill-opacity="0.709999979" fill="#00FF64" transform="translate(864.891772, 1144.488574) rotate(-29.000000) translate(-864.891772, -1144.488574) " points="-231.78234 1085.25093 1961.56588 1144.48857 1961.56588 1203.72622 -231.78234 1148.25093"></polygon>
+            <g id="Rectangle" transform="translate(757.051537, -1.288755) rotate(-1.000000) translate(-757.051537, 1.288755) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill-opacity="0.709999979" fill="#00FF64" fill-rule="evenodd" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>

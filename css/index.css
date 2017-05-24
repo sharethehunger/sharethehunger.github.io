@@ -1,0 +1,421 @@
+body,
+html {
+    padding: 0;
+    margin: 0 auto;
+    overflow-x: hidden;
+    background: black;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: justify;
+    color: black;
+    opacity: 0.7;
+}
+
+#navbar {
+    width: 100vw;
+    background: transparent;
+    padding: 1em;
+}
+
+.input-container {
+    padding: 12px;
+    background-color: black;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    -webkit-box-shadow: 0px 3px 20px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 3px 20px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 3px 20px 1px rgba(0, 0, 0, 0.75);
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+label {
+    color: white;
+}
+
+input {
+    border: none;
+    width: 260px;
+}
+
+select {
+    -webkit-appearance: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0px;
+    padding-left: 10px;
+    padding-right: 20px;
+    float: right;
+    -webkit-box-shadow: 0px 3px 20px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 3px 20px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 3px 20px 1px rgba(0, 0, 0, 0.75);
+}
+
+#title {
+    font-family: 'yellowtailregular', Arial, sans-serif;
+    font-size: 250%;
+    color: white;
+    border: white 2px solid;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+#title-link {
+    text-decoration: none;
+    margin-right: 10%;
+}
+
+.nav-link {
+    text-decoration: none;
+    margin-right: 5%;
+    padding: 2px;
+}
+
+.span-link {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-size: 150%;
+    height: 100%;
+}
+
+#page {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.nav-sep {
+    float: left;
+}
+
+.menu-button {
+    display: none;
+    width: 50px;
+    height: auto;
+    margin-top: 3px;
+    float: right;
+}
+
+.social-btn {
+    margin-left: 15px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    width: 50px;
+    height: auto;
+    float: right;
+}
+
+.nav-link-social {
+    margin-right: 2%;
+}
+
+.social-btn-big {
+    padding-top: 5px;
+    float: left;
+    width: 50px;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+#small-menu {
+    position: absolute;
+    background: transparent;
+    border-bottom: 2px white solid;
+    display: none;
+    width: 50vw;
+    right: 15px;
+}
+
+#floater {
+    float: right;
+}
+
+#slogan {
+    font-family: 'Roboto Condensed', sans-serif;
+    opacity: 0.5;
+    color: white;
+    font-size: 250%;
+}
+
+#home-section {
+    margin-top: 10em;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.small-nav-link {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 150%;
+    text-decoration: none;
+    margin: 10px;
+    float: right;
+}
+
+.small-span-link {
+    color: white;
+    text-decoration: none;
+}
+
+#background {
+    position: relative;
+    z-index: 9999999;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(225, 225, 225, 0.1), rgba(0, 0, 0, 0.2) 100%), url(../images/mountains.png);
+    background-size: cover;
+    background-color: transparent;
+    -webkit-box-shadow: 0px 3px 20px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 3px 20px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 3px 20px 1px rgba(0, 0, 0, 0.75);
+}
+
+.margin-down {
+    padding-top: 9em;
+}
+
+.title-rgb {
+    width: 50%;
+    height: auto;
+}
+
+.title2-rgb {
+    width: 44%;
+    height: auto;
+}
+
+#theHunger-rgb {
+    width: 90vw;
+    height: auto;
+}
+
+#about-section {
+    padding-top: 25px;
+    width: 100vw;
+}
+
+#corners {
+    position: relative;
+}
+
+.top-left {
+    position: absolute;
+    top: 0px;
+    left: -10px;
+    width: 10vw;
+    height: 10vw;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    z-index: 9999999;
+}
+
+.top-left-white {
+    position: absolute;
+    top: 0px;
+    left: -10px;
+    width: 10vw;
+    height: 10vw;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    z-index: 9999999;
+}
+
+.top-right {
+    position: absolute;
+    top: 0px;
+    right: -10px;
+    width: 10vw;
+    height: 10vw;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    z-index: 9999999;
+}
+
+.about-padding {
+    padding: 15px;
+}
+
+.col-md-4 {
+    padding: 15px !important;
+    position: relative;
+}
+
+.col-md-8 {
+    padding: 15px !important;
+    position: relative;
+}
+
+.about-title-white {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3em;
+    opacity: 0.9;
+}
+
+.prod-lable {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: underline;
+    font-size: 2em;
+    opacity: 0.9;
+    float: right;
+    color: white;
+}
+
+.prod-info {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.8em;
+    opacity: 0.9;
+    float: right;
+    color: white;
+}
+
+.section-attr {
+    width: 100vw;
+    background: white;
+    position: relative;
+}
+
+.about-title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3em;
+    opacity: 0.9;
+}
+
+#acadia {
+    height: 275px;
+    width: auto;
+    padding-top: 25px;
+}
+
+#t-shirt {
+    width: 300px;
+    height: auto;
+    margin-top: 15px;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+}
+
+#t-shirt-form-container {
+    float: right;
+}
+
+.skew {
+    position: absolute;
+    width: 55vw;
+    min-width: 600px;
+    top: 0;
+    left: -200px;
+    bottom: 0;
+    transform: skewX(20deg);
+    background: #C33764;
+    background: -webkit-linear-gradient(to right, #1D2671, #C33764);
+    background: linear-gradient(to right, #1D2671, #C33764);
+    -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.75);
+}
+
+.skew-other {
+    position: absolute;
+    width: 55vw;
+    min-width: 600px;
+    top: 0;
+    right: -200px;
+    bottom: 0;
+    transform: skewX(20deg);
+    background: #C33764;
+    background: -webkit-linear-gradient(to right, #1D2671, #C33764);
+    background: linear-gradient(to right, #1D2671, #C33764);
+    -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.75);
+}
+
+.special-content {
+    position: relative;
+    z-index: 99999;
+    width: 100vw;
+    background: white;
+    margin: 0 auto;
+}
+
+.center {}
+
+@media screen and (min-width: 1500px) {
+    #background {
+        background-image: linear-gradient(to top, rgba(225, 225, 225, 0.5), rgba(0, 0, 0, 0.5)), url(../images/m.png);
+    }
+    #slogan {
+        font-size: 350%;
+    }
+}
+
+@media screen and (max-width: 925px) {
+    .nav-link {
+        display: none;
+    }
+    .social-btn-big {
+        display: none;
+    }
+    .nav-link-social {
+        display: none;
+    }
+    .span-link {
+        display: none;
+    }
+    .menu-button {
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #acadia {
+        padding-bottom: 15px;
+    }
+    #t-shirt {
+        margin: 15px auto;
+    }
+    #acadia {
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 822px) {
+    .special-content {
+        background: #C33764;
+        background: -webkit-linear-gradient(to right, #1D2671, #C33764);
+        background: linear-gradient(to right, #1D2671, #C33764);
+        -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.75);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .prod-info {
+        float: none;
+    }
+    .prod-lable {
+        float: none;
+    }
+    #t-shirt-form-container {
+        float: none;
+    }
+    #t-shirt {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+}

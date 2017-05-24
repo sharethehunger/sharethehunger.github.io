@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="645px" height="232px" viewBox="0 0 645 232" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>text</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-weight="normal" font-family="Yellowtail" letter-spacing="2.64333272" font-size="288" fill-opacity="0.6">
+        <g id="Desktop-HD-Copy" transform="translate(-197.000000, -518.000000)">
+            <g id="text" transform="translate(99.000000, 450.000000)">
+                <text id="About" fill="#38FF00">
+                    <tspan x="104.999393" y="290">About</tspan>
+                </text>
+                <text id="About" fill="#007CFF">
+                    <tspan x="90.0651933" y="280">About</tspan>
+                </text>
+                <text id="About" fill="#FF0000">
+                    <tspan x="98.7768099" y="285">About</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
